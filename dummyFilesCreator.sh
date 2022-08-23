@@ -11,4 +11,8 @@ by Héctor Gonzalez Orozco
 Build as part of "The Odin Project" curriculum.
 
 ## Live Preview
-[https://hectorgonzalezo.github.io/$DIRECTORY/](https://hectorgonzalezo.github.io/$DIRECTORY/)"> README.md
+[https://hectorgonzalezo.github.io/$DIRECTORY/](https://hectorgonzalezo.github.io/$DIRECTORY/)"> README.md;
+
+git init;
+git add .;
+git commit -m "Create dummy files";
