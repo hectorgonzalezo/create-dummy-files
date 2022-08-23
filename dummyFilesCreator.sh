@@ -1,6 +1,6 @@
 #!/bin/bash
 DIRECTORY=$1;
-DIR_NAME=echo DIRECTORY | sed "s/[^[:alnum:]-]//g";
+DIR_NAME=`echo $DIRECTORY | sed "s/[^[:alnum:]-]//g";`
 mkdir $DIRECTORY
 cd $DIRECTORY;
 mkdir images styles scripts;
